@@ -4,6 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Home from './component/Home';
 import Mylist from './component/Mylist';
 import Register from './component/Register';
+import Login from './component/login';
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ const App = () => {
       <Route index element={<Home />}/>
       <Route path="Mylist" element={<Mylist/>}/>
       <Route path="Register" element={<Register/>}/>
+      <Route path="/login" element={<Login/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

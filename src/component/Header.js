@@ -23,7 +23,7 @@ const Header = () => {
       
     </ul>
     
-    <div><Link to="Register"><button className={`${isMenuOpen ? 'hidden' : 'block'} sm:flex px-4 py-2  rounded `}>Hello!</button></Link></div>
+    <div><Link to="Register"><button className={`${isMenuOpen ? 'hidden' : 'block'} sm:flex px-4 py-2  rounded `}>Register</button></Link></div>
     <button className="transition ease-out duration-500 active:-rotate-90 sm:hidden" onClick={()=>setIsMenuOpen(!isMenuOpen)}>
     {isMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
     </button>
